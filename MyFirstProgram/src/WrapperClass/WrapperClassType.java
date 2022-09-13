@@ -43,7 +43,9 @@ public class WrapperClassType {
       System.out.println("b is a character");
     }
 
-    // Notice that accessing the value of a wrapper class takes time because there
-    // are more steps to process. Hence it is not necessarily good for scaling.
+    // Notice that accessing the value of a Reference data type takes time because
+    // there
+    // are more steps to process. Hence it is not necessarily good to use a lot of
+    // wrapper class for scaling.
   }
 }
