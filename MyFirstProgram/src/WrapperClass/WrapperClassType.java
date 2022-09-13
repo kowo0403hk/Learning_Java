@@ -42,5 +42,8 @@ public class WrapperClassType {
     if (b == '@') {
       System.out.println("b is a character");
     }
+
+    // Notice that accessing the value of a wrapper class takes time because there
+    // are more steps to process. Hence it is not necessarily good for scaling.
   }
 }
