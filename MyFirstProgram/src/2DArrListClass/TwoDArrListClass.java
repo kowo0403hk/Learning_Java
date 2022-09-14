@@ -28,5 +28,15 @@ public class TwoDArrListClass {
     drinksList.add("Beer");
 
     System.out.println(drinksList);
+
+    ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
+
+    groceryList.add(bakeryList);
+    groceryList.add(produceList);
+    groceryList.add(drinksList);
+
+    // print [[Pasta, Garlic Bread, Donuts], [Tomatoes, Zucchini, Peppers], [Soda,
+    // Coffee, Beer]]
+    System.out.println(groceryList);
   }
 }
