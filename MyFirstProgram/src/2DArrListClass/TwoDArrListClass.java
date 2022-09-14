@@ -38,5 +38,8 @@ public class TwoDArrListClass {
     // print [[Pasta, Garlic Bread, Donuts], [Tomatoes, Zucchini, Peppers], [Soda,
     // Coffee, Beer]]
     System.out.println(groceryList);
+
+    // retrieve an element. Need to chain methods
+    System.out.println(groceryList.get(0).get(1));
   }
 }
