@@ -13,6 +13,12 @@ public class ALClass {
     food.add("Hamburger");
     food.add("Hotdog");
 
+    food.set(0, "Sushi");
+
+    food.remove(2);
+
+    food.clear();
+
     for (int i = 0; i < food.size(); i++) {
       System.out.println(food.get(i));
     }
