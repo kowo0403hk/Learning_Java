@@ -16,5 +16,6 @@ public class Inheritance {
 
     System.out.println(car.doors);
     System.out.println(bike.pedals);
+    System.out.println(bike.pedals);
   }
 }
