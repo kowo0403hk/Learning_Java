@@ -8,6 +8,7 @@ public class Dog extends Animal {
     this.age = age;
   }
 
+  @Override
   void speak() {
     System.out.println(this.name + " is barking.");
   }
