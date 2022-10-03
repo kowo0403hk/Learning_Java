@@ -7,7 +7,7 @@ public class Person {
     this.age = age;
   }
 
-  public String toString() {
-    return this.name + "\n" + this.age + "\n";
+  public String toString(String personality) {
+    return this.name + "\n" + this.age + "\n" + personality + "\n";
   }
 }

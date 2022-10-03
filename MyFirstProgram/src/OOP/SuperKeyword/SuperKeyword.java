@@ -10,6 +10,6 @@ public class SuperKeyword {
     System.out.println(batman.age);
     System.out.println(batman.power);
 
-    System.out.println(superman.toString());
+    System.out.println(superman.toString("Nice"));
   }
 }

@@ -7,7 +7,7 @@ public class Hero extends Person {
   }
 
   // calling super on super class' method
-  public String toString() {
-    return super.toString() + this.power;
+  public String toString(String personality) {
+    return super.toString(personality) + this.power;
   }
 }
