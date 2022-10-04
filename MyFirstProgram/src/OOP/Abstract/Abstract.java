@@ -4,5 +4,7 @@ public class Abstract {
     // abstract methods are declaraed without implementation
 
     Car car = new Car();
+
+    car.go();
   }
 }
